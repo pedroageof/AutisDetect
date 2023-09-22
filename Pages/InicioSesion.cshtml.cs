@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AutisDetect.Pages;
 
-public class RegistroModel : PageModel
+public class InicioSesionModel : PageModel
 {
-    private readonly ILogger<RegistroModel> _logger;
+    private readonly ILogger<InicioSesionModel> _logger;
 
-    public RegistroModel(ILogger<RegistroModel> logger)
+    public InicioSesionModel(ILogger<InicioSesionModel> logger)
     {
         _logger = logger;
     }
