@@ -5,6 +5,8 @@ namespace AutisDetect.Pages;
 
 public class InicioSesionModel : PageModel
 {
+
+    
     private readonly ILogger<InicioSesionModel> _logger;
 
     public InicioSesionModel(ILogger<InicioSesionModel> logger)
