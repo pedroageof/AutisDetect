@@ -5,6 +5,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: black;
 }
 
 a {
@@ -47,7 +48,30 @@ button.accept-policy {
   line-height: 60px;
 }
 
+/* styles.css */
+.azul-personalizado {
+  background-color: #aeebc7; 
+  border: 1px solid #000; 
+  padding: 10px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
 
+/* Cambiar el color del texto de la barra de navegación para que contraste mejor */
+.azul-personalizado .navbar-brand,
+.azul-personalizado .nav-link {
+  color: #000; 
+}
 
+/* Cambiar el color del botón de menú (navbar-toggler) para que contraste mejor */
+.azul-personalizado .navbar-toggler-icon {
+  background-color: #000; 
+  border: 1px solid #fff; 
+}
+
+/* Cambiar el color del texto del botón de menú (navbar-toggler-text) para que contraste mejor */
+.azul-personalizado .navbar-toggler-text {
+  color: #fff; 
+}
 
 
