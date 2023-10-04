@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,44 +8,42 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AutisDetect.styles.css" asp-append-version="true" />
-    
+
 </head>
+
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg azul-personalizado">
-        <div class="container">
-            <!-- Logotipo -->
-            <a class="navbar-brand" href="#">
-                <img src="\AutisDetect\wwwroot\img\Icono.jpg" alt="Logo de AutisDetect" class="logo">
-                AutisDetect
-            </a>
+        <nav class="navbar navbar-expand-lg azul-personalizado">
+            <div class="container">
+                <!-- Logotipo -->
+                <img src="~/img/Icono.jpg" alt="Logo de AutisDetect" class="logo80">
+                <a class="navbar-brand" href="#">
+                    AutisDetect
+                </a>
+                <!-- Botón de menú colocado en el mismo lugar -->
 
-            <!-- Botón de menú colocado en el mismo lugar -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-text">Menú</span>
-            </button>
 
-            <!-- Resto de la estructura de la barra de navegación -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto"> <!-- Utilizamos 'ml-auto' para alinear a la derecha -->
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Hogar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/InicioSesion">Ingrese</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Registro">Inscríbase</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                    </li>
-                </ul>
+                <!-- Resto de la estructura de la barra de navegación -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto"> <!-- Utilizamos 'ml-auto' para alinear a la derecha -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/InicioSesion">Ingrese</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Registro">Inscríbase</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
 
 
@@ -67,4 +66,5 @@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

@@ -45,3 +45,12 @@ body {
 .login-container .formulario h1 {
   text-align: center;
 }
+
+.logo80{
+  width: 90px;
+  height: 90px;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+}
